@@ -1,0 +1,7 @@
+Here is an example of a program that copies a file one character at a time. The IOTest class has a copyCharacters method which creates an instance of FileReader and passes the name of the file to be read to the FileReader constructor. It then creates an instance of FileWriter and passes the name of the file to be written to the FileWriter constructor.
+It then copies the contents of the xanadu.txt file to the characteroutput.txt file, character by character.
+##Java
+The java.io package contains many classes that your programs can use to read and write data. Most of the classes 
+implement sequential access streams. The sequential access streams can be divided into two groups: those that 
+read and write bytes and those that read and write Unicode characters. Each sequential access stream has a 
+speciality, such as reading from or writing to a file, filtering data as its read or written, or serializing an object.
